@@ -1,0 +1,29 @@
+{
+  "label": {
+    "home": "главная",
+    "news": "новости",
+    "contacts": "контакт",
+    "about": "о нас",
+    "email": "электронная почта",
+    "password": "пароль",
+    "sign_in": "войти",
+    "login": "вход",
+    "register": "зарегистрироваться",
+    "name": "имя",
+    "phone": "телефон",
+    "review": "обзор",
+    "control": "управление",
+    "billing": "платежи",
+    "organizations": "организации",
+    "create": "создать",
+    "create_organization": "создать организацию"
+
+  },
+  "guide": {
+    "welcome": "добро пожаловать",
+    "forgot_password": "забыли пароль",
+    "new_user": "новый пользователь"
+
+
+  }
+}

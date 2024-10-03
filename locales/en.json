@@ -1,0 +1,30 @@
+{
+  "label": {
+    "home": "home",
+    "news": "news",
+    "contacts": "contacts",
+    "about": "about us",
+    "email": "email",
+    "password": "password",
+    "sign_in": "sing in",
+    "login": "login",
+    "register": "register",
+    "name": "name",
+    "phone": "phone",
+    "review": "review",
+    "control": "control",
+    "billing": "billing",
+    "organizations": "organizations",
+    "create": "create",
+    "create_organization": "create organization"
+
+
+
+  },
+  "guide": {
+    "welcome": "welcome",
+    "forgot_password": "forgot password",
+    "new_user": "new user"
+
+  }
+}
