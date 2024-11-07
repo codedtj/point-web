@@ -17,5 +17,6 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'ru',
     vueI18n: './i18n.config.ts', // Use i18n config
-  }
+  },
+
 })
