@@ -16,15 +16,15 @@
     "billing": "billing",
     "organizations": "organizations",
     "create": "create",
-    "create_organization": "create organization"
-
+    "create_organization": "create organization",
+    "search": "Search"
 
 
   },
   "guide": {
     "welcome": "welcome",
     "forgot_password": "forgot password",
-    "new_user": "new user"
-
+    "new_user": "new user",
+    "nothing_found": "nothing is found"
   }
 }

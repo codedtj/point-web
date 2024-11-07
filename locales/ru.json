@@ -16,13 +16,17 @@
     "billing": "платежи",
     "organizations": "организации",
     "create": "создать",
-    "create_organization": "создать организацию"
+    "create_organization": "создать организацию",
+    "search": "Поиск"
+
+
 
   },
   "guide": {
     "welcome": "добро пожаловать",
     "forgot_password": "забыли пароль",
-    "new_user": "новый пользователь"
+    "new_user": "новый пользователь",
+    "nothing_found": "ничего не найдено"
 
 
   }
