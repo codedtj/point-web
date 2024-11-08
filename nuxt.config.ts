@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
 
+  plugins: ['~/plugins/localePath.ts'],
+
   colorMode: {
     classSuffix: ''
   },
