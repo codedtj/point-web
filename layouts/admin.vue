@@ -15,7 +15,7 @@
       <div class="hidden lg:w-60 flex-shrink-0 md:flex items-center">
         <NuxtLink
             class="text-gray-900 hover:text-gray-500 active:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 dark:active:text-gray-500 h-12 rounded-lg flex items-center ml-2 focus:ring focus:ring-inset focus:outline-none ring-primary-200 dark:ring-gray-600 px-4"
-            aria-label="Point Local" to="/admin/dashboard">
+            aria-label="Point Local" :to="$localPath('/admin/dashboard')">
           <span>
             <img class="h-4" src="/images/png/logo-colored.png">
           </span>

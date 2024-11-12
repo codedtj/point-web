@@ -17,7 +17,11 @@
     "organizations": "organizations",
     "create": "create",
     "create_organization": "create organization",
-    "search": "Search"
+    "search": "Search",
+    "point": "point",
+    "location": "location",
+    "purchaseDate": "purchase date",
+    "expiryDate": "expiry date"
 
 
   },

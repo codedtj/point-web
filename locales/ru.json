@@ -17,7 +17,11 @@
     "organizations": "организации",
     "create": "создать",
     "create_organization": "создать организацию",
-    "search": "Поиск"
+    "search": "Поиск",
+    "point": "точка",
+    "location": "расположение",
+    "purchaseDate": "дата покупки",
+    "expiryDate": "истечения срока"
 
 
 
