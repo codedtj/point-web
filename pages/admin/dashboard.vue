@@ -23,28 +23,28 @@ definePageMeta({
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             <AtomsCardsStatisticsCard>
               <template #title>
-                Новые пользователи
+                {{$t('label.new_users')}}
               </template>
               <template #icon>
                 <AtomsIconsStatisticsIcon class="text-2xl"/>
+              </template>
+              <template #value>
+                0
               </template>
             </AtomsCardsStatisticsCard>
             <AtomsCardsStatisticsCard>
               <template #title>
-                Новые пользователи
+                {{$t('label.balance')}}
               </template>
               <template #icon>
-                <AtomsIconsStatisticsIcon class="text-2xl"/>
+                <AtomsIconsBalanceIcon class="text-2xl"/>
+              </template>
+              <template #value>
+                0$
               </template>
             </AtomsCardsStatisticsCard>
-            <AtomsCardsStatisticsCard>
-              <template #title>
-                Новые пользователи
-              </template>
-              <template #icon>
-                <AtomsIconsStatisticsIcon class="text-2xl"/>
-              </template>
-            </AtomsCardsStatisticsCard>
+
+
           </div>
 
         </div>
