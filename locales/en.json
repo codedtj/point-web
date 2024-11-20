@@ -21,7 +21,9 @@
     "point": "point",
     "location": "location",
     "purchaseDate": "purchase date",
-    "expiryDate": "expiry date"
+    "expiryDate": "expiry date",
+    "new_users": "new users",
+    "balance": "balance"
 
 
   },

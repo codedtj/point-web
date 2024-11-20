@@ -13,7 +13,7 @@ definePageMeta({
       <AtomsInputsCategoricalSearch/>
       <div class="w-full flex items-center mb-6">
         <div class="flex-shrink-0 ml-auto">
-          <NuxtLink to="/admin/organizations/create">
+          <NuxtLink :to="$localPath('/admin/organizations/create')">
             <AtomsButtonsPrimaryPoint>
               <template #long>
                 {{ $t('label.create_organization') }}

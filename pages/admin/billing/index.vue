@@ -6,7 +6,9 @@ definePageMeta({
 
 <template>
 <AtomsCardsPointContainer>
+  <AtomsCardsPrimaryCard>
 
+  </AtomsCardsPrimaryCard>
 </AtomsCardsPointContainer>
 </template>
 
