@@ -23,7 +23,9 @@
     "purchaseDate": "purchase date",
     "expiryDate": "expiry date",
     "new_users": "new users",
-    "balance": "balance"
+    "balance": "balance",
+    "current_plan": "current plan",
+    "upgrade": "upgrade"
 
 
   },
@@ -32,5 +34,9 @@
     "forgot_password": "forgot password",
     "new_user": "new user",
     "nothing_found": "nothing is found"
+  },
+  "massage": {
+    "find_price": "find the perfect plan for your needs",
+    "choose_a_license": "choose a license that fits your business or personal goals. upgrade anytime as your requirements grow"
   }
 }
