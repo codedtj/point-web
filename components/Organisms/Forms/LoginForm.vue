@@ -20,8 +20,9 @@ const handleLogin = async () => {
       throw new Error('Invalid response')
     }
 
-    // Save token and redirect
-    localStorage.setItem('auth_token', data.value.token)
+    // Save token and user data to localStorage
+    localStorage.setItem('auth_token', data.value.token) // Save token
+    localStorage.setItem('auth_user', JSON.stringify(data.value.user)) // Save user object as string
     router.push('/admin/dashboard')
   } catch (error) {
     console.error('Login failed:', error)
