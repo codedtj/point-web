@@ -52,9 +52,9 @@ onMounted(() => {
               </div>
               <nav class="hidden md:flex space-x-10 my-auto text-xs">
                 <NuxtLink :to="$localPath('/')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.home') }}</NuxtLink>
-                <NuxtLink :to="$localPath('/news')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.news') }}</NuxtLink>
-                <NuxtLink :to="$localPath('/contacts')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.contacts') }}</NuxtLink>
-                <NuxtLink :to="$localPath('/about')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.about') }}</NuxtLink>
+                <NuxtLink :to="$localPath('/public/news')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.news') }}</NuxtLink>
+                <NuxtLink :to="$localPath('/public/contacts')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.contacts') }}</NuxtLink>
+                <NuxtLink :to="$localPath('/public/about')" class=" leading-6 font-medium transition ease-in-out duration-150 capitalize">{{ $t('label.about') }}</NuxtLink>
               </nav>
               <OrganismsColorModeSelector class="hidden md:flex"/>
               <OrganismsLanguageSelector class="hidden md:flex"/>
