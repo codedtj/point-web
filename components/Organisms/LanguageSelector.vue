@@ -15,15 +15,12 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useI18n } from 'vue-i18n';
 import { useNuxtApp } from '#app';
-definePageMeta({
-  middleware: ["setLocale"]
-})
+
 const { $i18n } = useNuxtApp();
 const locales = [
-  { code: 'ru', name: 'RU' },
-  { code: 'en', name: 'EN' },
+  {code: 'ru', name: 'RU'},
+  {code: 'en', name: 'EN'},
 ];
 
 // Initialize the current locale
