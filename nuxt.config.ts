@@ -21,9 +21,8 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.ts', // Use i18n config
   },
   runtimeConfig: {
-    public: {
-      apiBase: 'https://bbauuntpeliikurte3ku.containers.yandexcloud.net/v1', // Public API base URL
-    },
+    apiBase: process.env.API_BASE_URL ,
+    apiVersion: process.env.API_VERSION ,
   },
 
 
