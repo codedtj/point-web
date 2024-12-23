@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 
 const email = ref('')
 const password = ref('')
+const error = ref('') // Reactive variable for error messages
 const router = useRouter()
 
 const handleLogin = async () => {
   try {
     const payload = { username: email.value, password: password.value }
-    console.log('Payload being sent:', payload) // Debug log
 
     const { data } = await useFetch('/api/login', {
       method: 'POST',
@@ -21,15 +21,19 @@ const handleLogin = async () => {
     }
 
     // Save token and user data to localStorage
-    localStorage.setItem('auth_token', data.value.token) // Save token
-    localStorage.setItem('auth_user', JSON.stringify(data.value.user)) // Save user object as string
+    localStorage.setItem('auth_token', data.value.token)
+    localStorage.setItem('auth_user', JSON.stringify(data.value.user))
     router.push('/admin/dashboard')
-  } catch (error) {
-    console.error('Login failed:', error)
-    alert('Login failed. Please check your credentials and try again.')
+  } catch (err) {
+    console.error('Login failed:', err)
+    error.value = 'Login failed. Please check your credentials and try again.'
   }
 }
 
+// Clear error when user types
+watch([email, password], () => {
+  error.value = ''
+})
 </script>
 
 <template>
