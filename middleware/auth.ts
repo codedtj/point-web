@@ -1,8 +1,9 @@
+// middleware/auth.ts
 export default defineNuxtRouteMiddleware((to, from) => {
-    if (process.client) { // Ensure this runs only on the client
+    if (process.client) {
         const token = localStorage.getItem('auth_token')
         if (!token && to.fullPath.startsWith('/admin')) {
-            return navigateTo('/login')
+            return navigateTo('/auth/login')
         }
     }
 })

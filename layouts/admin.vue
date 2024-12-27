@@ -28,6 +28,14 @@
           <OrganismsColorModeSelector class="hidden md:flex"/>
           <OrganismsLanguageSelector class="hidden md:flex"/>
           <OrganismsNotificationBar/>
+          <div>
+            <button
+                @click="logout"
+                class="flex hover:bg-gray-700 dark:text-white hover:text-white rounded h-10 w-10"
+            >
+              <AtomsIconsLogoutIcon class=" my-auto text-xl font-bold mx-auto"/>
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -49,6 +57,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -64,6 +73,8 @@ onMounted(() => {
   isDarkMode.value = savedMode ? savedMode === 'dark' : true;
   document.documentElement.classList.toggle('dark', isDarkMode.value);
 });
+
+const { logout } = useAuth()
 </script>
 
 <style scoped>
