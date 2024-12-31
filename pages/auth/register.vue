@@ -4,7 +4,7 @@
 
 <template>
   <div class="dark:bg-primary-900 dark:text-white bg-tertiaty text-zinc-500 py-6 flex ">
-    <OrganismsFormsRegistrationForm class="my-auto mx-auto mt-10" />
+    <OrganismsFormsRegistrationForm class="my-auto mx-auto mt-10 " />
   </div>
 </template>
 
